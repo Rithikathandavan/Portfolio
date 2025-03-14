@@ -100,8 +100,9 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background: #fff;
-  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+  
+  background: #111111; /* deep dark background */
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3); /* subtle shadow for depth */
 }
 
 /* Navbar */
